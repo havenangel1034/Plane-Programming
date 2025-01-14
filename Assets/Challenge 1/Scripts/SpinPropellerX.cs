@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 
 public class SpinPropellerX : MonoBehaviour
@@ -13,6 +14,6 @@ public class SpinPropellerX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Rotate(Vector3.forward * 1);
     }
 }
